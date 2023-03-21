@@ -1,5 +1,7 @@
 #include "data_stat.h"
 #include <stdlib.h>
+#undef max
+#undef min
 
 double max(double *data, int n) {
   double max = data[0];
