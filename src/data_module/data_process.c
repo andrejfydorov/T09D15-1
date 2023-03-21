@@ -1,4 +1,5 @@
 #include "data_process.h"
+#include <math.h>
 
 int normalization(double *data, int n) {
   int result = 1;
