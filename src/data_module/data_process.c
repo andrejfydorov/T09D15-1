@@ -1,7 +1,7 @@
 #include "data_process.h"
 #include <math.h>
-#undef max(a, b)(((a) > (b)) ? (a) : (b))
-#undef min(a, b)(((a) < (b)) ? (a) : (b))
+#undef max
+#undef min
 
 int normalization(double *data, int n) {
   int result = 1;
